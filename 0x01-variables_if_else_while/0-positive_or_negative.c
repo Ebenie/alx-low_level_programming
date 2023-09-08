@@ -27,4 +27,3 @@ int main(void)
 	/* your code displayed */
 	return (0);
 }
-
