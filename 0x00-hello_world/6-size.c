@@ -3,7 +3,6 @@
     * main -A program that printsthe size of varius computer types
     * Return: 0  (Success)
     */
-
 int main(void)
 {
 char a;
