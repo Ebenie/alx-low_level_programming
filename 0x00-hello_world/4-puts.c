@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
-    * main -A programming prints "Programming is like building a multilingual puzzle,
+    * main -Prints "Programming is like building a multilingual puzzle,
     * followed by new   line."
     * Return 0. (Success)
     */
 int main(void)
 {
-puts ("\"Programming is like building a multilingual puzzle \n");
+puts("\"Programming is like building a multilingual puzzle\n");
 /**
   *the return should be an integer
  */
