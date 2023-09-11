@@ -29,5 +29,4 @@ printf("Last digit of %d and is less than 6 and not 0\n", n, lastd);
 }
 
 return (0);
-
 }
