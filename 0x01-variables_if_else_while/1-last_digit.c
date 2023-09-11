@@ -1,38 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
 /**
-  * main - Function prints a text
-  * Return :  Always success
- */
+* main - Print the alphabetic
+* Return: Always (Success)
+*/
+
 int main(void)
 {
-	int n,x;
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
+putchar('\n');
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/*  */
-x=n % 10;
-if (x > 5){
-printf(" Last digit of %d is %d and greater than 5\n" , n , x);
-
+return (0);
 }
-
-else if(x==0){
-printf(" Last digit of %d is %d 0 \n" , n , x);
-
-}
-else if (x < 6 && x != 0){
-printf(" Last digit of %d is %d and is greater than 6 and not 0 \n" , n , x);
-}
-else{
-
-}
-/**
-  *the return should be an integer
- */
-	return (0);
-}
-
