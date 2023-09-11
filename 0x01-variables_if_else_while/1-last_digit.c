@@ -1,15 +1,32 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-/**
-* main - Print the alphabetic
-* Return: Always (Success)
-*/
 
+/**
+   * main - Print a text according number
+   *Return: Always (Success)
+   *
+   */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
-putchar(c);
-putchar('\n');
+int n, lastd;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+lastd = n % 10;
+if (lastd > 5)
+{
+printf("Last digit of %d is %d  and is grater than 5\n", n, lastd);
+
+}
+else if (lastd == 0)
+{
+printf("Last digit of %d is %d  and is 0\n", n, lastd);
+
+}
+else if (lastd < 6 && lastd != 0)
+{
+printf("Last digit of %d and is less than 6 and not 0\n", n, lastd);
+}
 
 return (0);
 }
