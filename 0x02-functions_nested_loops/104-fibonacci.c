@@ -1,6 +1,6 @@
-#include "main.h"
+#include <stdio.h>
 /**
-* main - print the result
+* main - print the first 98 fibonnaci numbers
 * Return: Always 0.
 */
 
