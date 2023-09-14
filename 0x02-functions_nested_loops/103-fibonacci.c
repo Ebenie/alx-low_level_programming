@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 * main - Print the sum of Even Fibonacci number less than 4000000
 * Return: Nothing

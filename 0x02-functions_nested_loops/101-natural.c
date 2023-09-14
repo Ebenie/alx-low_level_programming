@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 * main - Print the sum of all multiple of 3 or 5 upto 1024
 * Return: Always (Success)
@@ -16,7 +16,7 @@ z += i;
 }
 i++;
 }
-printf("%d\n",z);
+printf("%d\n", z);
 return (0);
 
 
