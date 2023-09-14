@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -9,13 +10,13 @@ int main(void)
 {
     int r;
 
-r = _isalphabet('H');
+r = _isalpha('H');
 _putchar(r + '0');
-r = _isalphabet('o');
+r = _isalpha('o');
 _putchar(r + '0');
-r = _isalphabet(108);
+r = _isalpha(108);
 _putchar(r + '0');
-r = _isalphabet(';');
+r = _isalpha(';');
 _putchar(r + '0');
 _putchar('\n');
 return (0);
