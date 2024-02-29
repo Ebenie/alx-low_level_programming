@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" This module helps you to get the total perimeter of the water and land."""
+
+"""
+This module helps you to get the total perimeter of the water and land.
+"""
 
 def island_perimeter(grid):
     """
@@ -9,7 +12,7 @@ def island_perimeter(grid):
         grid (List[List[int]]): a list of lists of integers representing the grid.
 
     Returns:
-        int: The perimeter of the island is represens in integer value.
+        int: The perimeter of the island is represented as an integer value.
 
     """
     perimeter = 0
