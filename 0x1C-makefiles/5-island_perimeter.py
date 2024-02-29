@@ -4,6 +4,7 @@
 This module helps you to get the total perimeter of the water and land.
 """
 
+
 def island_perimeter(grid):
     """
     This function calculates the perimeter of the island described in grid list of lists.
